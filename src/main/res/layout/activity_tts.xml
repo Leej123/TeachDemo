@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vejoe.techdemo.TTSActivity">
+    <LinearLayout
+        android:id="@+id/fun_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btn_clear_text"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="清 除"/>
+        <Button
+            android:id="@+id/btn_text_to_speech"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="转 换"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_above="@id/fun_layout"
+        android:gravity="top"
+        android:layout_marginBottom="16dip"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">教学演示</string>
+    <string name="company_name">深圳维周</string>
+    <string name="copyright">CopyRight &#169; 2016 维周机器人 All Rights Reserved</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="directions">
+        <item>向前</item>
+        <item>右上</item>
+        <item>向右</item>
+        <item>右下</item>
+        <item>向后</item>
+        <item>左下</item>
+        <item>向左</item>
+        <item>左上</item>
+    </string-array>
+</resources>

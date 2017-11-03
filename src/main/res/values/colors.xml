@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007ac4</color>
+    <!-- <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMainActivity">#42505c</color>
+    <color name="colorManualControl">#f27578</color>
+    <color name="colorParasSetting">#ffd95d</color>
+    <color name="colorStatusCheck">#29a8ff</color>
+    <color name="colorBlockMask">#99000000</color>
+</resources>
