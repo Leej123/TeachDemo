@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +27,7 @@ import com.vejoe.lib.core.comm.BluetoothSession;
 import com.vejoe.lib.core.utils.Tools;
 import com.vejoe.lib.voice.SpeechRecognizerListener;
 import com.vejoe.lib.voice.iflytek.IflyTekIat;
+import com.vejoe.techdemo.ble.BLEDeviceListActivity;
 import com.vejoe.techdemo.widget.RockerView;
 
 import java.util.Arrays;
@@ -171,7 +171,7 @@ public class BalanceActivity extends BaseActivity implements BluetoothCommPacket
         if (item.getItemId() == android.R.id.home) {
             finish();
         } else if (item.getItemId() == 1) {
-            Intent intent = new Intent(this, DeviceListActivity.class);
+            Intent intent = new Intent(this, BLEDeviceListActivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

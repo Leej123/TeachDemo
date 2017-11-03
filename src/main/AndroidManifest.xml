@@ -61,6 +61,11 @@
             android:name=".DeviceListActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" />
+
+        <activity android:name=".ble.BLEDeviceListActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme"/>
+
         <activity
             android:name=".VoiceDemoActivity"
             android:screenOrientation="portrait" />

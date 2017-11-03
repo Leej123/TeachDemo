@@ -2,6 +2,7 @@ package com.vejoe.techdemo;
 
 import com.iflytek.cloud.SpeechUtility;
 import com.vejoe.lib.app.BaseBluetoothApplication;
+import com.vejoe.lib.app.BaseBluetoothLEApplication;
 import com.vejoe.lib.core.utils.Tools;
 import com.vejoe.lib.voice.iflytek.IflyTekSettings;
 import com.vejoe.techdemo.voice.VoiceCfg;
@@ -12,7 +13,8 @@ import java.io.File;
  * Created by Administrator on 2017/5/9 0009.
  */
 
-public class TechDemoApp extends BaseBluetoothApplication {
+//public class TechDemoApp extends BaseBluetoothApplication {
+public class TechDemoApp extends BaseBluetoothLEApplication {
     private static final String IFLYTEK_APP_ID = "583e358c";
     private static final String IFLYTEK_VOICE_CLOUD_API_KEY = "i1Q4b8D074i7f1E9V4L8Mh2oHNwjVDHcTVVJemDW";
     private IflyTekSettings speechSettings;
